@@ -1,0 +1,142 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+
+
+header {
+    padding: 10px;
+    text-align: left;
+    background: #0c0c0c;
+    color: rgb(8, 8, 8);
+    height: 165px;
+}
+
+#menubar {
+
+    width: 100%;
+    height: 76px;
+    padding: 0;
+    background:  #7db3f0    
+}
+header nav .menubar a:hover{
+    color: rgb(14, 14, 14);
+}
+ul#menu,
+ul#menu li {
+    
+    float: left;
+    margin: 0;
+    padding: 0
+}
+
+ul#menu li {
+    list-style: none
+}
+
+ul#menu li a {
+    letter-spacing: .1em;
+    font: normal 100% arial, sans-serif;
+    display: block;
+    float: left;
+    height: 37px;
+    padding: 29px 26px 6px 26px;
+    text-align: center;
+    color: rgb(10, 10, 10);
+    text-transform: uppercase;
+    text-decoration: none;
+    background: 0 0
+}
+
+ul#menu li a:hover,
+ul#menu li.selected a,
+ul#menu li.selected a:hover {
+    color: rgb(12, 12, 12);
+}
+
+article {
+    padding: 10px;
+    width: 65%;
+    float: left;
+
+}
+aside {
+    padding: 10px;
+    width: 30%;
+    float: right;
+
+}
+ul a {
+    font-size: 20px;
+    padding: 10px;
+}
+ul
+{
+    line-height: 30px;
+}
+p
+{
+    text-align:justify;
+    margin: 0px;
+    font-size: 20px;
+    line-height: 30px;
+}
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a,
+a:hover {
+    outline: 0;
+    text-decoration: underline;
+    color: #1293ee
+}
+
+a:hover {
+    text-decoration: none
+}
+
+li {
+    margin: 2px 0 22px 17px
+}
+
+ul li {
+    list-style-type: circle;
+    margin: 0 0 6px 0;
+    padding: 0 0 4px 5px
+}
+img.hover-shadow {
+    transition: 0.3s;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer {
+    clear: both;
+    background: #080808;
+    height: 50px;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+@media (max-width:786px){
+
+   p{
+        font-size: 15px;
+        height: auto;
+    }
+    h1{
+        font-size: 25px;
+        height: auto;
+    }
+    h2{
+        font-size: 25px;
+        height: auto;
+    }
+}
